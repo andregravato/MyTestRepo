@@ -1,0 +1,16 @@
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\obj\x86\Debug\MiscTestApplication.Form1.resources
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\obj\x86\Debug\MiscTestApplication.Properties.Resources.resources
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\bin\Debug\Database.sdf
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\bin\Debug\MiscTestApplication.exe.config
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\bin\Debug\MiscTestApplication.exe
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\bin\Debug\MiscTestApplication.pdb
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\bin\Debug\MiscTestApplication.DataAdapter.dll
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\bin\Debug\MiscTestApplication.DataAdapter.pdb
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\obj\x86\Debug\MiscTestApplication.exe
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication\obj\x86\Debug\MiscTestApplication.pdb
+E:\SourceRepo\MyTestRepo\MiscTestApplication\MiscTestApplication\bin\Debug\MiscTestApplication.exe.config
+E:\SourceRepo\MyTestRepo\MiscTestApplication\MiscTestApplication\obj\x86\Debug\MiscTestApplication.exe
+E:\SourceRepo\MyTestRepo\MiscTestApplication\MiscTestApplication\obj\x86\Debug\MiscTestApplication.pdb

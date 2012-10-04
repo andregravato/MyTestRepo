@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="EntityModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="EntityModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="MainEntity1" EntityType="EntityModel.MainEntity1" />
+    <EntitySet Name="SubEntities" EntityType="EntityModel.SubEntity" />
+    <AssociationSet Name="FK_SubEntity_0" Association="EntityModel.FK_SubEntity_0">
+      <End Role="MainEntity1" EntitySet="MainEntity1" />
+      <End Role="SubEntity" EntitySet="SubEntities" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="MainEntity1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SubEntities" Relationship="EntityModel.FK_SubEntity_0" FromRole="MainEntity1" ToRole="SubEntity" />
+  </EntityType>
+  <EntityType Name="SubEntity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="Int64" Name="MainEntity1Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MainEntity1" Relationship="EntityModel.FK_SubEntity_0" FromRole="SubEntity" ToRole="MainEntity1" />
+  </EntityType>
+  <Association Name="FK_SubEntity_0">
+    <End Type="EntityModel.MainEntity1" Role="MainEntity1" Multiplicity="1" />
+    <End Type="EntityModel.SubEntity" Role="SubEntity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MainEntity1">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SubEntity">
+        <PropertyRef Name="MainEntity1Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,8 @@
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication.DataAdapter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication.DataAdapter\bin\Debug\Database.sdf
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication.DataAdapter\bin\Debug\MiscTestApplication.DataAdapter.dll.config
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication.DataAdapter\bin\Debug\MiscTestApplication.DataAdapter.dll
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication.DataAdapter\bin\Debug\MiscTestApplication.DataAdapter.pdb
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication.DataAdapter\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication.DataAdapter\obj\Debug\MiscTestApplication.DataAdapter.dll
+C:\Users\andre.gravato\documents\visual studio 2010\Projects\MiscTestApplication\MiscTestApplication.DataAdapter\obj\Debug\MiscTestApplication.DataAdapter.pdb

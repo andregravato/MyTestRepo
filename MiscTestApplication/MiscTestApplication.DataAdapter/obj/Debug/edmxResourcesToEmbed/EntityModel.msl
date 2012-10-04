@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs" Space="C-S">
+  <Alias Key="Model" Value="EntityModel" />
+  <Alias Key="Target" Value="EntityModel.Store" />
+  <EntityContainerMapping CdmEntityContainer="EntityModelContainer" StorageEntityContainer="EntityModelStoreContainer">
+    <EntitySetMapping Name="MainEntity1">
+      <EntityTypeMapping TypeName="EntityModel.MainEntity1">
+        <MappingFragment StoreEntitySet="MainEntity1">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubEntities">
+      <EntityTypeMapping TypeName="EntityModel.SubEntity">
+        <MappingFragment StoreEntitySet="SubEntity">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MainEntity1Id" ColumnName="MainEntity1Id" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
